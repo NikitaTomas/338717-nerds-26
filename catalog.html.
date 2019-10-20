@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <title>HTML Academy: Нёрдс</title>
+  </head>
+  <body>
+    <header>
+      <section>
+        <h1>Nerds</h1>
+        <img src="img/nerds-logo.svg" alt="logo">
+    <ul>
+      <li><a href="#">Студия</a></li>
+      <li><a href="#">Клиенты</a></li>
+      <li><a href="#">Магазин</a></li>
+      <li><a href="#">Контакты</a></li>
+      <li><a href="#">Корзина</a></li>
+    </ul>
+      </section>
+    </header>
+  <main>
+    <section>
+     <h2>Магазин готовых шаблонов</h2>
+    </section>
+    <section>
+      <h3>Стоимость</h3>
+      <input type="range" name="filtr" value="" min="0" max="15000">
+      <p>от 0</p>
+      <p>до 15000</p>
+    </section>
+    <section>
+      <h3>Сортировать:</h3>
+      <ul>
+        <li>По цене</li>
+        <li>По типу</li>
+        <li>По названию</li>
+      </ul>
+    </section>
+    <section>
+      <form>
+      <h3>Сетка:</h3>
+        <p><input value="Адаптивная" type="radio" name="set" checked>Адаптивная</p>
+        <p><input value="Фиксированная" type="radio" name="set">Фиксированная</p>
+        <p><input value="Резиновая" type="radio" name="set">Резиновая</p>
+      </form>
+    </section>
+    <section>
+      <form>
+      <h3>Особенности:</h3>
+        <p><input value="Адаптивная" type="checkbox" name="set" checked>Слайдер</p>
+        <p><input value="Фиксированная" type="checkbox" name="set">Блок приемуществ</p>
+        <p><input value="Резиновая" type="checkbox" name="set" checked>Новости</p>
+        <p><input value="Резиновая" type="checkbox" name="set">Галерея</p>
+        <p><input value="Резиновая" type="checkbox" name="set">Корзина</p>
+      </form>
+      <a type="bottom" href="#">Показать</a>
+    </section>
+<section>
+  <h2>Список шаблонов</h2>
+  <ul>
+    <li><img src="img/img-sedona-jpg.jpg"alt="sedona"></li>
+    <li><img src="img/img-pink-jpg.jpg"alt="pink"></li>
+    <li><img src="img/img-barbershop-jpg.jpg"alt="barbershop borodinski"></li>
+    <li><img src="img/img-mishka-jpg.jpg"alt="mishka"></li>
+    <li><img src="img/img-aplus-jpg.jpg"alt="A+"></li>
+    <li><img src="img/img-kvast-jpg.jpg" alt="Кваст"></li>
+  </ul>
+  <ul>
+    <li>
+      <a href="#">1</a>
+    </li>
+    <li>
+      <a href="#">2</a>
+    </li>
+    <li>
+      <a href="#">3</a>
+    </li>
+    <li>
+      <a href="#">Следующая</a>
+    </li>
+  </ul>
+</section>
+<section>
+  <img src="img/2.jpg" alt="Карта">
+</section>
+  </main>
+<footer>
+  <section>
+    <h2>Контакты</h2>
+    <div class="">
+      <a type="bottom" href="#">В контакте</a>
+      <a type="bottom" href="#">Фейсбук</a>
+      <a type="bottom" href="#">Инстаграм</a>
+    </div>
+    <p>Давайте дружить, это выгодно! <br> скидка 10% для друзей из социальных сетей.</p>
+  </section>
+</footer>
+  </body>
+</html>
