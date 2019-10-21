@@ -9,10 +9,10 @@
   </head>
   <body>
     <header>
-      <section>
-        <h1>Nerds</h1>
+      <section class="flex-2">
+        <h1 class="visually-hidden">Nerds</h1>
         <img src="img/nerds-logo.svg" alt="logo">
-    <ul>
+    <ul class="flex-3">
       <li><a href="#">Студия</a></li>
       <li><a href="#">Клиенты</a></li>
       <li><a href="#">Магазин</a></li>
@@ -22,7 +22,7 @@
       </section>
     </header>
   <main>
-    <section>
+    <section class="catalog-1">
      <h2>Магазин готовых шаблонов</h2>
     </section>
     <section>
@@ -59,8 +59,8 @@
       <a type="bottom" href="#">Показать</a>
     </section>
 <section>
-  <h2>Список шаблонов</h2>
-  <ul>
+  <h2 class="visually-hidden">Список шаблонов</h2>
+  <ul class="catalog-2">
     <li><img src="img/img-sedona-jpg.jpg"alt="sedona"></li>
     <li><img src="img/img-pink-jpg.jpg"alt="pink"></li>
     <li><img src="img/img-barbershop-jpg.jpg"alt="barbershop borodinski"></li>
@@ -68,7 +68,7 @@
     <li><img src="img/img-aplus-jpg.jpg"alt="A+"></li>
     <li><img src="img/img-kvast-jpg.jpg" alt="Кваст"></li>
   </ul>
-  <ul>
+  <ul class="catalog-3">
     <li>
       <a href="#">1</a>
     </li>
@@ -88,9 +88,9 @@
 </section>
   </main>
 <footer>
-  <section>
-    <h2>Контакты</h2>
-    <div class="">
+  <section class="flex-8">
+    <h2 class="visually-hidden">Контакты</h2>
+    <div>
       <a type="bottom" href="#">В контакте</a>
       <a type="bottom" href="#">Фейсбук</a>
       <a type="bottom" href="#">Инстаграм</a>
@@ -98,5 +98,17 @@
     <p>Давайте дружить, это выгодно! <br> скидка 10% для друзей из социальных сетей.</p>
   </section>
 </footer>
+<section>
+  <h2>Напишите нам</h2>
+  <form class="flex-9">
+    <label for="name">Ваше имя:</label>
+    <input id="name" name="name" placeholder="Имя Фамилия" required />
+    <label for="emailaddress">Ваш e-mail:</label>
+    <input id="emailaddress" name="emailaddress" placeholder="email@example.com" type="email" required />
+    <label for="subject">Текст письма:</label>
+    <textarea id="subject" rows="4" cols="50" name="subject" placeholder="В свободной форме"required></textarea>
+    <input name="submit"  type="submit" value="Отправить" />
+</form>
+</section>
   </body>
 </html>
